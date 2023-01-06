@@ -1,0 +1,39 @@
+.block, .inline { 
+    font-size: 2rem;
+}
+
+.line {
+    background-color: chartreuse;
+    height: 5px;
+    margin: 50px 0;
+}
+
+
+/* ------------------------------ */
+
+.content-1__block {
+    box-sizing: border-box;
+    padding:50px;
+    width: 600px;
+    /* margin-bottom: 20px; отступ строки */
+    background-color: red;
+    /* padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 10px; */
+    padding: 50px 100px 150px 10px;
+    margin-bottom: 50px 50px, 50px, 50px;
+}
+
+.content-1__inline{
+background-color: rgb(238, 235, 235);
+}
+
+.content-1__block-wrapper {
+    background-color: firebrick;
+    padding: 50px 50px 0 ;
+}
+
+.content-1__image {
+    padding: 2px;
+}

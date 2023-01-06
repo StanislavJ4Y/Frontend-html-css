@@ -1,0 +1,18 @@
+.text-3 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+.text-4 {
+    font-size: 3rem;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.text-3 {
+    font-family: 'Zen Dots', cursive;
+}
+
+.text-4 {
+    font-family: 'Carter One', cursive;
+}

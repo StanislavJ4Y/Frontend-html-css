@@ -1,0 +1,140 @@
+.line {
+    height: 10px;
+    width: 100%;
+    font-style: italic;
+    background-color: black;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.block {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.title {
+    color:darkorchid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-size: 50px;
+line-height: 100px;
+}
+
+.text {
+    font-size: 30px;
+    line-height: 50px;
+font-style: italic;
+font-weight: initial;
+text-indent: 40px;
+letter-spacing: 12px;
+}
+
+.text-2 {
+    font-size: 20px;
+    font-style: inherit;
+    text-align: left;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+
+.text-3{
+    font-size: 20px;
+    font-style: inherit;
+    text-align: left;
+    text-shadow: 0px 0px 3px black;
+}
+.text-4 {
+    text-shadow: 4px 4px 4px;
+    letter-spacing: 5px;
+    font-size: x-large;
+    word-spacing: 12px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.em{
+    font-size: 20px;
+}
+
+em.title-1 {
+    /*(20px * 1.5) */
+     font-size: 1.5 em;
+}
+.em_square, .vhw-min-max_square {
+    width: 3em;
+    height: 3em;
+    background-color: aqua;
+}
+
+.parent-square {
+    /* border:1px solid darkblue; */
+
+    background-color: yellow;
+}
+
+.parent-square_child {
+background-color: deepskyblue;
+}
+
+.parent-squared {
+    background-color: dodgerblue;
+}
+
+.parent-square_childd {
+    background-color: fuchsia;
+}
+.parent-square {
+    width: 300px;
+    height: 300px;
+}
+.parent-square_child {
+    width: 100%;
+    height: 150px;
+}
+
+.text1 {
+    letter-spacing: 12px;
+    font-style: italic;
+    font-weight: initial;
+    text-align: left;
+    size: 15px;
+}
+
+.parent-squared {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+.parent-square_childd {
+    width: 100%;
+    height: 100px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; */
+
+    margin-top: 80px; /*отступ*/
+    padding-top: 12%;
+    font-size: 15.5px;
+    font-style: oblique;
+    text-shadow: 12px 12px 3px;
+    color: yellow;
+}
+
+.procent {
+    margin-top: 40px;
+font-size: 150%;
+}
+
+.vhw_text {
+font-size: 3vw; /*динамический шрифт, изменяться в зависимости от размера екрана*/
+}
+
+.vhw-min-max_text, .vhw-min-max_text1, .vhw-min-max_text2  {
+    font-size: 3vmin;
+    font-size: 5vmax;
+}

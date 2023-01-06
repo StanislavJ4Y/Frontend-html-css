@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 50px 50px 30vh;
+    height: 100vh;
+}
+
+.block {
+    height: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+.block {
+background: linear-gradient(red blue 20%);
+}
+
